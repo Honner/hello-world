@@ -1,0 +1,13 @@
+# Ns
+nsHome=${user.home}/.ns_config
+
+# Lnk
+qserver-id2='/amqp/queue'
+ti-quartz.rpc-server.default.concurrent=5
+
+ti-quartz-srv.route-path=ti-quartz-srv/src/test/resources/test-env
+ti-quartz-srv.route-port=9991
+
+# Db
+ti-quartz-srv.db-path=/db/mysql/ti_quartz_db
+ti-quartz-srv.concurrent=5
